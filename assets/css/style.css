@@ -1,16 +1,13 @@
-/* Sets Website Box Sizing, Margin, and Padding */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
-/* Sets The Backgroung Color For The Body Of The Website */
 body {
     background-color: #d9dcd6;
 }
 
-/* Sets The Background Color, Font, Text Color, and Padding For The Header */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -18,18 +15,15 @@ body {
     color: #ffffff;
 }
 
-/* Sets The Display Type and Font Size For The H1 Header */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-/* Sets The Text Color For The Class .seo Withing The H1 Header */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
-/* Sets The Style For The Div Section Inside Header */
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -38,29 +32,24 @@ body {
     font-size: 20px;
 }
 
-/* Sets The Style For The Unordered List Within The Div Section Inside Header */
 .header div ul {
     list-style-type: none;
 }
 
-/* Sets The Display Type and Left Side Margin For Each Line In The Unordered List Within The Header */
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
-/* Sets The Text Color and Text Decoration For The Hyperlinks */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
-/* Sets The Font Size For Each Paragraph Inside The Body */
 p {
     font-size: 16px;
 }
 
-/* Sets The Backgound Image, Position, And Size As Well As The Bottom Margin, Height, And Width For The Class "Hero" */
 .hero {
     height: 800px;
     width: 100%;
@@ -70,19 +59,16 @@ p {
     background-position: center;
 }
 
-/* Sets The Float and Right Margin For The Class "Float Left" */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
-/* Sets The Float and Left Margin For The Class "Float Right" */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
-/* Sets The Display Type, Left Margin, and Width For The Class "Content" */
 .content {
     width: 75%;
     display: inline-block;
@@ -100,55 +86,17 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+.benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+.benefit-lead h3, .benefit-brand h3, .benefit-cost h3, .benefit-lead img, .benefit-brand img, .benefit-cost img {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.search-engine-optimization {
+.search-engine-optimization, .online-reputation-management, .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -157,47 +105,11 @@ p {
     color: #ffffff;
 }
 
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
+.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
     max-height: 200px;
 }
 
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
+.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
